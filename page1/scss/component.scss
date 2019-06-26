@@ -1,0 +1,48 @@
+.c-select {
+    .c-options, .toggle {
+        display: inline-block;
+    }
+}
+
+.c-nav {
+    .c-nav-item {
+        float: left;
+    }
+    .c-nav-link {
+        display: block;
+        text-align: center;
+    }
+}
+
+.c-gallery {
+    &-card {
+        float: left;
+        margin-right: 30px;
+        &:last-child {
+            margin-right: 0;
+        }
+    }
+    &-desc {
+        line-height: 48px;
+        font-size: 16px;
+        color: #353535;
+        text-align: center;
+    }
+    &-units {
+        text-align: right;
+    }
+    &-unit {
+        display: inline-block;
+        margin-right: 16px;
+        font-size: 14px;
+        color: #666;
+        .icon {
+            width: 20px;
+            height: 18px;
+            margin-right: 18px;
+        }
+        &:last-child {
+            margin-right: 0;
+        }
+    }
+}
